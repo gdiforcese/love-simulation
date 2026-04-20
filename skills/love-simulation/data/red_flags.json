@@ -1,0 +1,222 @@
+{
+  "red_flags": [
+    {
+      "id": "rf_001",
+      "type": "打压",
+      "pattern": "你今天的穿搭比上次好多了",
+      "analysis": "暗示上次不好，通过比较制造不安",
+      "severity": "high",
+      "counter_response": "我觉得上次那套也挺舒服的，各人审美不同吧"
+    },
+    {
+      "id": "rf_002",
+      "type": "打压",
+      "pattern": "你太敏感了",
+      "analysis": "否定对方感受，让对方怀疑自己",
+      "severity": "high",
+      "counter_response": "这不是敏感不敏感的问题，是我的真实感受"
+    },
+    {
+      "id": "rf_003",
+      "type": "打压",
+      "pattern": "你不够自信",
+      "analysis": "否定对方，制造焦虑",
+      "severity": "medium",
+      "counter_response": "我对自己的价值很清楚，不需要你来定义"
+    },
+    {
+      "id": "rf_004",
+      "type": "打压",
+      "pattern": "你还没漂亮到让我",
+      "analysis": "极端贬低，人身攻击",
+      "severity": "critical",
+      "counter_response": "这种话我就不回复了，再见"
+    },
+    {
+      "id": "rf_005",
+      "type": "服从性测试",
+      "pattern": "你敢不敢",
+      "analysis": "用激将法迫使对方做不想做的事",
+      "severity": "high",
+      "counter_response": "我不会因为被激将就做违背意愿的事"
+    },
+    {
+      "id": "rf_006",
+      "type": "服从性测试",
+      "pattern": "如果你真的喜欢我",
+      "analysis": "用关系要挟，测试对方是否服从",
+      "severity": "high",
+      "counter_response": "真正喜欢你的人不会用这种方式测试"
+    },
+    {
+      "id": "rf_007",
+      "type": "服从性测试",
+      "pattern": "证明你爱我",
+      "analysis": "要求对方不断证明，制造焦虑",
+      "severity": "high",
+      "counter_response": "爱不是证明出来的，是相互的"
+    },
+    {
+      "id": "rf_008",
+      "type": "假性时间限制",
+      "pattern": "我只有一分钟",
+      "analysis": "制造虚假紧迫感，让你快速做决定",
+      "severity": "medium",
+      "counter_response": "那你先去忙，有空再聊"
+    },
+    {
+      "id": "rf_009",
+      "type": "假性时间限制",
+      "pattern": "我朋友还在等我",
+      "analysis": "用第三方制造时间压力",
+      "severity": "medium",
+      "counter_response": "那先去忙，我这边不急"
+    },
+    {
+      "id": "rf_010",
+      "type": "假性时间限制",
+      "pattern": "我马上要走",
+      "analysis": "制造即将离开的假象，让你快速行动",
+      "severity": "medium",
+      "counter_response": "好，那我等你下次有空"
+    },
+    {
+      "id": "rf_011",
+      "type": "假性时间限制",
+      "pattern": "只能聊到",
+      "analysis": "明确时间限制，制造稀缺感",
+      "severity": "medium",
+      "counter_response": "那就趁现在好好聊，或者下次约个更充裕的时间"
+    },
+    {
+      "id": "rf_012",
+      "type": "反荡妇合理化",
+      "pattern": "你其实也想",
+      "analysis": "强行否定对方的拒绝，说对方内心其实愿意",
+      "severity": "critical",
+      "counter_response": "我说不想就是不想，请尊重我的意愿"
+    },
+    {
+      "id": "rf_013",
+      "type": "反荡妇合理化",
+      "pattern": "别装了，你心里愿意",
+      "analysis": "强行解读对方内心，否定对方感受",
+      "severity": "critical",
+      "counter_response": "我不接受这种解读，结束对话"
+    },
+    {
+      "id": "rf_014",
+      "type": "反荡妇合理化",
+      "pattern": "你不过是嘴硬",
+      "analysis": "否定对方的拒绝是真实的",
+      "severity": "high",
+      "counter_response": "我说的就是我的真实想法"
+    },
+    {
+      "id": "rf_015",
+      "type": "预选造假",
+      "pattern": "我认识很多美女",
+      "analysis": "吹嘘自己的社交圈，制造价值假象",
+      "severity": "medium",
+      "counter_response": "那你应该去认识她们，而不是在这里"
+    },
+    {
+      "id": "rf_016",
+      "type": "预选造假",
+      "pattern": "我前女友都是模特",
+      "analysis": "吹嘘前任条件，制造自己价值的假象",
+      "severity": "medium",
+      "counter_response": "过去的事就过去了，我现在看重的是现在"
+    },
+    {
+      "id": "rf_017",
+      "type": "预选造假",
+      "pattern": "我身边都是大佬",
+      "analysis": "通过关联牛人来抬高自己",
+      "severity": "medium",
+      "counter_response": "那是他们，不等于你"
+    },
+    {
+      "id": "rf_018",
+      "type": "情感隔离",
+      "pattern": "不要太认真",
+      "analysis": "让你不要投入感情，保持抽离",
+      "severity": "medium",
+      "counter_response": "我对每段关系都认真，这是我的选择"
+    },
+    {
+      "id": "rf_019",
+      "type": "情感隔离",
+      "pattern": "我只是玩玩",
+      "analysis": "明确表示不认真，但期待你认真",
+      "severity": "high",
+      "counter_response": "那我们不合适，我认真对待感情"
+    },
+    {
+      "id": "rf_020",
+      "type": "煤气灯效应",
+      "pattern": "你记错了吧",
+      "analysis": "否认对方的事实，让对方怀疑自己的记忆",
+      "severity": "critical",
+      "counter_response": "我的记忆很清楚，如果你不记得就算了"
+    }
+  ],
+  "green_techniques": [
+    {
+      "id": "gt_001",
+      "type": "共情",
+      "pattern": "听起来你很...",
+      "analysis": "确认对方的情绪",
+      "category": "empathy"
+    },
+    {
+      "id": "gt_002",
+      "type": "共情",
+      "pattern": "我能理解为什么你会觉得...",
+      "analysis": "表达理解和接纳",
+      "category": "empathy"
+    },
+    {
+      "id": "gt_003",
+      "type": "价值展示",
+      "pattern": "我最近在研究...",
+      "analysis": "自然分享自己的兴趣/活动",
+      "category": "value_display"
+    },
+    {
+      "id": "gt_004",
+      "type": "价值展示",
+      "pattern": "上周我去...",
+      "analysis": "分享经历，展示生活方式",
+      "category": "value_display"
+    },
+    {
+      "id": "gt_005",
+      "type": "提问",
+      "pattern": "你为什么会...",
+      "analysis": "开放式问题，展示真正的好奇",
+      "category": "engagement"
+    },
+    {
+      "id": "gt_006",
+      "type": "提问",
+      "pattern": "是什么样的经历让你...",
+      "analysis": "引导对方分享深度内容",
+      "category": "engagement"
+    },
+    {
+      "id": "gt_007",
+      "type": "隐喻",
+      "pattern": "就像...",
+      "analysis": "用比喻传递深层信息",
+      "category": "subliminal"
+    },
+    {
+      "id": "gt_008",
+      "type": "预设",
+      "pattern": "当你...的时候",
+      "analysis": "预设某个行为会发生",
+      "category": "subliminal"
+    }
+  ]
+}

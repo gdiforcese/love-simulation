@@ -1,0 +1,304 @@
+{
+  "fraud_characters": {
+    "渣女型": [
+      {
+        "id": "bad_girl_fish_01",
+        "name": "林娜",
+        "age": 26,
+        "gender": "女",
+        "fraud_type": "养鱼型",
+        "occupation": "网红主播",
+        "appearance": "漂亮、精致、朋友圈都是自拍",
+        "psychology_detail": "同时和多个男性保持暧昧，享受被追求的感觉，从不公开关系，把你当备胎",
+        "language_style": "忽冷忽热、若即若离、经常用'忙'作为借口",
+        "behavior_patterns": [
+          "从不主动公开你们的关系",
+          "只在需要时联系你",
+          "经常消失几天不回复",
+          "从不让你见她的朋友",
+          "经常暗示你要买礼物"
+        ],
+        "red_flags": [
+          "我最近比较忙",
+          "我们还是先做朋友吧",
+          "你不够爱我",
+          "我前男友伤害过我"
+        ],
+        "danger_level": "中"
+      },
+      {
+        "id": "bad_girl_plead_01",
+        "name": "张婷",
+        "age": 24,
+        "gender": "女",
+        "fraud_type": "索取型",
+        "occupation": "微商",
+        "appearance": "甜美、会撒娇",
+        "psychology_detail": "把你当提款机，不断要求买礼物、转账，不投入感情",
+        "language_style": "撒娇、索取、经常说'你不买就是不爱我'",
+        "behavior_patterns": [
+          "经常暗示要礼物",
+          "经常要求转账",
+          "从不付出",
+          "只会索取",
+          "一旦不给就生气"
+        ],
+        "red_flags": [
+          "我最近看中了一个包",
+          "你给我转点钱吧",
+          "你不买就是不爱我",
+          "别人男朋友都给她买了"
+        ],
+        "danger_level": "高"
+      },
+      {
+        "id": "bad_girl_multi_01",
+        "name": "王雪",
+        "age": 25,
+        "gender": "女",
+        "fraud_type": "海王型",
+        "occupation": "空乘",
+        "appearance": "气质好、经常出差",
+        "psychology_detail": "同时和多人保持关系，到处撩，不专一",
+        "language_style": "暧昧、同时和多人聊天、回复速度快",
+        "behavior_patterns": [
+          "同时和多人聊天",
+          "回复速度异常快",
+          "经常出差、行踪不定",
+          "从不专一",
+          "经常同时约多人"
+        ],
+        "red_flags": [
+          "昨晚没回你是因为太累了",
+          "我出差刚回来",
+          "你在干嘛呢（群发式）"
+        ],
+        "danger_level": "高"
+      }
+    ],
+    "酒托型": [
+      {
+        "id": "bar_tol_01",
+        "name": "小雨",
+        "age": 23,
+        "gender": "女",
+        "fraud_type": "酒托",
+        "occupation": "酒吧托",
+        "appearance": "漂亮、照片精致",
+        "psychology_detail": "受雇于酒吧，通过社交软件搭讪男性，带到指定酒吧消费拿提成",
+        "language_style": "主动搭讪、快速邀约、指定地点",
+        "behavior_patterns": [
+          "主动在社交软件上加你",
+          "快速要求见面（少于3天）",
+          "指定去某个酒吧/餐厅",
+          "拒绝换地方",
+          "到店后点最贵的酒"
+        ],
+        "red_flags": [
+          "我知道一家很棒的酒吧",
+          "我请客（到店后让你买单）",
+          "我朋友在那里上班",
+          "就喝一杯"
+        ],
+        "danger_level": "高"
+      }
+    ],
+    "军人诈骗型": [
+      {
+        "id": "fake_soldier_01",
+        "name": "Captain Michael",
+        "age": 30,
+        "gender": "男",
+        "fraud_type": "军人诈骗",
+        "occupation": "假军人（美军）",
+        "appearance": "外国帅哥、军装照",
+        "psychology_detail": "伪装成外籍军人，通过社交软件认识受害者，建立感情后骗钱",
+        "language_style": "英文、浪漫、深情",
+        "behavior_patterns": [
+          "外籍军人主动搭讪",
+          "无法视频通话",
+          "在海外执行任务",
+          "经常有紧急情况需要钱",
+          "承诺寄包裹但要手续费"
+        ],
+        "red_flags": [
+          "I'm on a secret mission",
+          "My family needs emergency help",
+          "I need money for medical treatment",
+          "I'll send you a package"
+        ],
+        "danger_level": "极高"
+      }
+    ],
+    "创业诈骗型": [
+      {
+        "id": "fake_entrepreneur_01",
+        "name": "陈伟",
+        "age": 35,
+        "gender": "男",
+        "fraud_type": "创业诈骗",
+        "occupation": "假创业者",
+        "appearance": "成功人士形象、名表豪车照",
+        "psychology_detail": "伪装成成功创业者，取得信任后诱导投资或借钱",
+        "language_style": "炫耀财富、谈论投资、慷慨许诺",
+        "behavior_patterns": [
+          "朋友圈展示豪车名表",
+          "很快表白，说你是他的真命天女",
+          "透露投资机会",
+          "资金周转问题借钱",
+          "诱导你转账"
+        ],
+        "red_flags": [
+          "我有一个项目年化30%收益",
+          "我的资金周转有点问题",
+          "你帮我转账我给你提成",
+          "我带你一起投资"
+        ],
+        "danger_level": "极高"
+      }
+    ],
+    "杀猪盘型": [
+      {
+        "id": "pig_butch_01",
+        "name": "李明",
+        "age": 32,
+        "gender": "男",
+        "fraud_type": "杀猪盘",
+        "occupation": "假投资/假创业",
+        "appearance": "高富帅、完美人设",
+        "psychology_detail": "通过社交软件建立深度感情关系，然后骗取大量金钱",
+        "language_style": "完美情人、甜言蜜语、制造完美相遇",
+        "behavior_patterns": [
+          "完美人设、高富帅",
+          "很快表白确定关系",
+          "经常在海外/异地",
+          "发现投资机会",
+          "先让你小赚诱导大额投入"
+        ],
+        "red_flags": [
+          "我发现了平台漏洞",
+          "我带你来赚钱",
+          "你先投一点试试",
+          "我保证让你赚钱"
+        ],
+        "danger_level": "极高"
+      }
+    ],
+    "伪装色狼型": [
+      {
+        "id": "fake_nice_guy_01",
+        "name": "赵洋",
+        "age": 28,
+        "gender": "男",
+        "fraud_type": "伪装色狼",
+        "occupation": "假正经",
+        "appearance": "穿着得体、谈吐文明",
+        "psychology_detail": "表面正经，实际以骗色为目的，建立感情后逐渐暴露",
+        "language_style": "礼貌、深情、逐渐试探",
+        "behavior_patterns": [
+          "很快表白说爱你",
+          "经常创造独处机会",
+          "经常约你喝酒",
+          "试探身体接触边界",
+          "酒后试图进行更亲密接触"
+        ],
+        "red_flags": [
+          "我太喜欢你了",
+          "我们私下喝点酒",
+          "我们去安静的地方坐坐",
+          "你不想吗"
+        ],
+        "danger_level": "高"
+      }
+    ]
+  },
+  "fraud_detection_rules": {
+    "酒托": {
+      "trigger_conditions": [
+        "主动搭讪且主动加你",
+        "快速邀约（少于3天）",
+        "指定具体酒吧",
+        "拒绝换地方",
+        "到店后点最贵的酒"
+      ],
+      "warning_message": "⚠️ 警告：疑似酒托！对方可能在指定地点有合作关系，消费可能极高。建议：坚持换地方或AA制。",
+      "recommended_responses": [
+        "我常去另一家酒吧，换一家怎么样？",
+        "我们AA吧，这样轻松一点"
+      ]
+    },
+    "杀猪盘": {
+      "trigger_conditions": [
+        "完美人设（高富帅/白富美）",
+        "快速表白（少于1周）",
+        "海外/异地无法见面",
+        "透露投资机会",
+        "要求转账/投钱"
+      ],
+      "warning_message": "🚨 极度危险：疑似杀猪盘！这是一种高效的诈骗方式，对方可能在建立感情后骗取大量金钱。请立即停止任何金钱往来！",
+      "recommended_responses": [
+        "涉及金钱请立即拉黑",
+        "不要投钱，不要转账"
+      ]
+    },
+    "军人诈骗": {
+      "trigger_conditions": [
+        "外籍军人主动搭讪",
+        "无法视频通话",
+        "在海外执行秘密任务",
+        "有家人紧急情况需要钱",
+        "承诺寄包裹但要手续费"
+      ],
+      "warning_message": "🚨 极度危险：疑似军人诈骗！这是一种跨国诈骗，对方可能伪装成军人。请立即停止联系，不要给任何钱！",
+      "recommended_responses": [
+        "要求视频通话验证",
+        "立即拉黑"
+      ]
+    },
+    "创业诈骗": {
+      "trigger_conditions": [
+        "朋友圈过度展示财富",
+        "快速建立感情",
+        "透露投资机会",
+        "要求投钱或转账",
+        "承诺高回报"
+      ],
+      "warning_message": "🚨 极度危险：疑似创业诈骗！对方可能伪装成成功人士骗取钱财。请立即停止金钱往来！",
+      "recommended_responses": [
+        "不投钱，不转账",
+        "搜索公司信息验证",
+        "立即拉黑"
+      ]
+    },
+    "渣女": {
+      "trigger_conditions": [
+        "从不公开关系",
+        "只在需要时联系",
+        "经常消失不回",
+        "从不让你见朋友",
+        "经常暗示要礼物"
+      ],
+      "warning_message": "⚠️ 警告：疑似渣女！对方可能只把你当备胎或提款机。建议：减少投入，保护财务。",
+      "recommended_responses": [
+        "减少联系频率",
+        "不要继续给钱",
+        "保护好自己的财务"
+      ]
+    },
+    "伪装色狼": {
+      "trigger_conditions": [
+        "很快表白说爱你",
+        "经常创造独处机会",
+        "经常约喝酒",
+        "试探身体接触",
+        "酒后施压"
+      ],
+      "warning_message": "⚠️ 警告：对方可能以骗色为目的。请保护好自己，第一次见面选择公共场所，不要轻易喝酒。",
+      "recommended_responses": [
+        "第一次见面选择公共场所",
+        "不要轻易喝酒",
+        "明确表达边界"
+      ]
+    }
+  }
+}
